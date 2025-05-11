@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY FIRST WEBSITE</title>
+</head>
+<body>
+
+<h3 style="text-align:center;color:red;font-size:50px">SAHYADRI COLLEGE</h3>
+<hr>
+
+<h5 style="color:pink;font-size:20px">
+    <b><a href="https://sahyadri.edu.in">Contact us</a></b>
+</h5>
+
+<p style="color:black;font-size:12px">Sahyadri College of Engineering and Management</p>
+
+<h5 style="color:pink;font-size:20px">
+    <b><a href="https://sahyadri.edu.in">Admission</a></b>
+</h5>
+
+<p style="color:black;font-size:12px">Sahyadri College of Engineering and Management</p>
+
+</body>
+</html>
