@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usage of different fonts, styles and colors</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>This header is in red</h1>
+<h2>This header is in line</h2>
+<p>This is a normal text</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Setting background page</title>
+  <style type="text/css">
+    body {
+      background-image: url("image1.jpg");
+      background-repeat: no-repeat;
+      color: #ee78a2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Life is beautiful</h1>
+</body>
+</html>
+
+
+
+h1
+{
+color:red;
+font-family:castellar;
+font-size:22pt;
+text-decoration:underline;
+}
+
+
+h2
+{
+color:blue;
+font-family:Chiller;
+font-size:18pt;
+text-decoration:overline;
+}
+
+
+p
+{
+color:magenta;
+font-family:Trebuchet;
+font-size:14pt;
+font-style:italic;
+}
