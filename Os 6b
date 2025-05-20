@@ -1,0 +1,81 @@
+#include < atdian
+
+#includ didlib.h>
+
+thwnited Lemaphore
+
+pthread.h>
+
+# asrelude < demaphore.h>
+
+It include <unistd.h>
+
+Lem-t room s
+
+Lem - chopsticl (5);
+
+Void Cat (int);
+
+Void+ philosopher (void*);
+
+Void Cat (int phil)
+
+printf("In Milosoper 1. d is enting", phil");
+
+pr
+
+de
+
+3
+
+int main ()
+
+int i, a(s);
+
+pthread&tid (5);
+
+dem-init (4 room, 0,4);
+
+for (i=0;ics; i++)
+
+Lem - init() chopstel (ⅰ), 0,1);
+
+for (j=0; i<s; i++)
+
+a[i]=i;
+
+pthread - breste (& tid (ⅰ), NULL, Philosphere)
+(void*) & a[i]);
+
+for for (i=0; i<s; i++)
+
+pthread- join (tid [1], NULL);
+
+3
+
+Void + philospher (Void num)
+
+int phil =* Cint +) do num;
+
+dem - wait (Groom);
+
+printf ("In philosopher. d has enterad room", phil);
+
+Lem - wait (& chopstick (phil));
+
+Lem - wait (& chopstick Chitty ((phil+1) 15
+
+eat (phil);
+
+Heep (2);
+
+printf (in Philosopher /d has finicked eating",
+
+phil);
+
+dem - port (& chopstick [(phil +1)%5));
+
+Lem - post (4 chopstick (phil));
+
+Lem - port (& broom);
+
